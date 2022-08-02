@@ -1,0 +1,99 @@
+body {
+margin-top: 550x;
+padding-top: 550px;
+text-align: center;
+}
+
+.menu{
+list-style: none;
+position: fixed;
+background:white;
+width: 100%;
+margin-top: 0px;
+top: 0px;  
+z-index:10;
+cursor:pointer;  
+}
+
+.links{
+float: left;
+display: inline;
+padding-top: 5px;
+padding-left: 33x;
+padding-right: 25px;
+padding-bottom: 5px;
+font-family: fantasy;
+font-size: 20px;    
+}
+.profile {
+ border-radius: 50%;
+}
+.links:hover{
+font-size: 25px;
+text-decoration: underline;
+}
+
+#welcome {
+position: absolute;
+bottom: 0; 
+background: linear-gradient(#b5251b 0%,#63bdeb 100%);
+display: table; 
+width: 100%;
+height:100%; 
+}
+
+h1 {
+font-size: 40 px;
+font-family:sans-serif ;
+font-weight:300;
+}
+
+#name {
+ font-size: 50px;
+ font-family: 'Edu QLD Beginner', cursive;   
+}
+
+h2 {
+font-size: 30px;
+font-weight: 300;
+font-family: monospace;    
+}
+
+#bio {
+font-family: 'Edu QLD Beginner', cursive;
+padding: 50px;    
+}
+
+.line {
+height: 6px;
+background-color:black;
+width: 70px;
+margin: 8px auto;    
+}
+
+.parallax-inner {
+display: table-cell;
+vertical-align: middle;    
+}
+
+a{
+   text-decoration: none; 
+}
+
+#writings a {
+text-decoration: underline !important;
+color: green !important;   
+}
+
+#contact{
+background:lightgray   
+}
+
+#contact iframe{
+width: 100%;   
+}
+
+.contact_1 h3
+{
+   display: inline;
+}
